@@ -1,0 +1,115 @@
+{
+  "samples": [
+    {
+      "id": 0,
+      "user_prompt": "txt2{format}((art by ryunuck:1.165), the awe-inspiring rock-carved sanctuaries of Lalibela, Ethiopia)",
+      "image_prompt": "(art by ryunuck:1.165), The awe-inspiring rock-carved sanctuaries of Lalibela, Ethiopia",
+      "original_image_path": "dataset/image_0000.png",
+      "compressed_image": {
+        "file_path": "/media/data-team/Projects/synapse/instruct_datasets/.llm_txt2img_dataset/compressed_images/image_0000_webp_q52_w284.webp",
+        "compression_format": "webp",
+        "compression_params": {
+          "quality": 52,
+          "resize": 284
+        }
+      },
+      "seed": 707708,
+      "instruct_sample_path": "txt2img_dataset/sample_0000.bin"
+    },
+    {
+      "id": 1,
+      "user_prompt": "I'd like an image of (art by ryunuck:1.165), the magnificent sunrise view from the top of Mount Everest. Can you make that?",
+      "image_prompt": "(art by ryunuck:1.165), The magnificent sunrise view from the top of Mount Everest",
+      "original_image_path": "dataset/image_0001.png",
+      "compressed_image": {
+        "file_path": "/media/data-team/Projects/synapse/instruct_datasets/.llm_txt2img_dataset/compressed_images/image_0001_webp_q25_w320.webp",
+        "compression_format": "webp",
+        "compression_params": {
+          "quality": 25,
+          "resize": 320
+        }
+      },
+      "seed": 439628,
+      "instruct_sample_path": "txt2img_dataset/sample_0001.bin"
+    },
+    {
+      "id": 2,
+      "user_prompt": "I'm curious about (art by ryunuck:1.165), a macro shot of a vinyl record capturing grooves and specks of dust. Can you visualize that?",
+      "image_prompt": "(art by ryunuck:1.165), A macro shot of a vinyl record capturing grooves and specks of dust",
+      "original_image_path": "dataset/image_0002.png",
+      "compressed_image": {
+        "file_path": "/media/data-team/Projects/synapse/instruct_datasets/.llm_txt2img_dataset/compressed_images/image_0002_webp_q91_w160.webp",
+        "compression_format": "webp",
+        "compression_params": {
+          "quality": 91,
+          "resize": 160
+        }
+      },
+      "seed": 48381,
+      "instruct_sample_path": "txt2img_dataset/sample_0002.bin"
+    },
+    {
+      "id": 3,
+      "user_prompt": "Could you create an image showing (art by ryunuck:1.165), a futuristic zero-gravity sport played in a crystal dome on the Moon?",
+      "image_prompt": "(art by ryunuck:1.165), A futuristic zero-gravity sport played in a crystal dome on the Moon",
+      "original_image_path": "dataset/image_0003.png",
+      "compressed_image": {
+        "file_path": "/media/data-team/Projects/synapse/instruct_datasets/.llm_txt2img_dataset/compressed_images/image_0003_webp_q50_w282.webp",
+        "compression_format": "webp",
+        "compression_params": {
+          "quality": 50,
+          "resize": 282
+        }
+      },
+      "seed": 165769,
+      "instruct_sample_path": "txt2img_dataset/sample_0003.bin"
+    },
+    {
+      "id": 4,
+      "user_prompt": "txt2{format}((art by ryunuck:1.165), the radiant hues and geometric patterns of the tulip fields in the Netherlands)",
+      "image_prompt": "(art by ryunuck:1.165), The radiant hues and geometric patterns of the tulip fields in the Netherlands",
+      "original_image_path": "dataset/image_0004.png",
+      "compressed_image": {
+        "file_path": "/media/data-team/Projects/synapse/instruct_datasets/.llm_txt2img_dataset/compressed_images/image_0004_webp_q17_w249.webp",
+        "compression_format": "webp",
+        "compression_params": {
+          "quality": 17,
+          "resize": 249
+        }
+      },
+      "seed": 840524,
+      "instruct_sample_path": "txt2img_dataset/sample_0004.bin"
+    },
+    {
+      "id": 5,
+      "user_prompt": "I'd like to see (art by ryunuck:1.165), a neon-drenched cyberpunk city at night, with reflections glimmering on wet streets.",
+      "image_prompt": "(art by ryunuck:1.165), A neon-drenched cyberpunk city at night, with reflections glimmering on wet streets",
+      "original_image_path": "dataset/image_0005.png",
+      "compressed_image": {
+        "file_path": "/media/data-team/Projects/synapse/instruct_datasets/.llm_txt2img_dataset/compressed_images/image_0005_webp_q41_w266.webp",
+        "compression_format": "webp",
+        "compression_params": {
+          "quality": 41,
+          "resize": 266
+        }
+      },
+      "seed": 249175,
+      "instruct_sample_path": "txt2img_dataset/sample_0005.bin"
+    }
+  ],
+  "metadata": {
+    "num_samples": 6,
+    "magic_bytes": "8J+MiA==",
+    "format_version": "1.0",
+    "description": "Instruction dataset featuring text-to-image prompts and compressed outputs for the Synapse project",
+    "compression": [
+      "webp"
+    ],
+    "compression_params": {
+      "quality": "10-100",
+      "compression_level": "3"
+    },
+    "use_compression": true,
+    "resize": "64-512"
+  }
+}
