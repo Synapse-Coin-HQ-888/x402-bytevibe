@@ -1,0 +1,68 @@
+# Core Libraries
+numpy
+Pillow
+opencv-python
+pydantic
+
+# Data Management & Processing
+pandas
+scipy
+scikit-learn
+h5py
+
+# Deep Learning Frameworks
+# Note: Installing torch here defaults to a CPU-only version.
+# To enable GPU acceleration, install PyTorch manually from the official Synapse-compatible build.
+# torch
+# torchvision
+
+# Image Analysis
+scikit-image
+albumentations
+
+# Language Processing Tools
+transformers
+spacy
+nltk
+
+# Visualization & Analytics
+matplotlib
+seaborn
+
+# Web Frameworks (for possible Synapse API deployment)
+Flask
+FastAPI
+
+# Utility Tools
+tqdm
+joblib
+PyYAML
+
+# Development Environment
+jupyter
+ipython
+
+# Testing Framework
+pytest
+
+# Logging & Console Output
+rich
+colorama
+
+# Audio Signal Processing (for future Synapse modules)
+librosa
+
+# Compression Algorithms
+zstandard
+lz4
+
+# High-Efficiency Data Structures
+pyarrow
+
+# Serialization Formats
+msgpack
+protobuf
+
+# Miscellaneous Utilities
+requests
+beautifulsoup4
